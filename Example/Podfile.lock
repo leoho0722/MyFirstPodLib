@@ -1,16 +1,21 @@
 PODS:
-  - MyFirstPodLib (0.1.0)
+  - MyFirstPodLib (0.0.1)
 
 DEPENDENCIES:
-  - MyFirstPodLib (from `../`)
+  - MyFirstPodLib (from `https://github.com/leoho0722/MyFirstPodLib.git`)
 
 EXTERNAL SOURCES:
   MyFirstPodLib:
-    :path: "../"
+    :git: https://github.com/leoho0722/MyFirstPodLib.git
+
+CHECKOUT OPTIONS:
+  MyFirstPodLib:
+    :commit: dff99fbf0b0cd9aba96eaf6dc5f38bf71ebbb6b1
+    :git: https://github.com/leoho0722/MyFirstPodLib.git
 
 SPEC CHECKSUMS:
-  MyFirstPodLib: cf40022f732a7eaa48943f12075d9b83aefe983d
+  MyFirstPodLib: 4d1a6a310a85fcbfc429ad91caf9a4b3676c2ef2
 
-PODFILE CHECKSUM: 3fc3c1f59566566c624bc80f20255e7f407b5d19
+PODFILE CHECKSUM: 91dfd9e2a9ed5fd54a49154f5bb95a1209dce269
 
 COCOAPODS: 1.11.2
