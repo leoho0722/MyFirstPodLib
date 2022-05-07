@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '13.0'
 
 target 'MyFirstPodLib_Example' do
-  pod 'MyFirstPodLib', :git => 'https://github.com/leoho0722/MyFirstPodLib.git'
+  pod 'MyFirstPodLib', '0.0.1'
 
   target 'MyFirstPodLib_Tests' do
     inherit! :search_paths
