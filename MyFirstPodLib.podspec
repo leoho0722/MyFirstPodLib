@@ -27,9 +27,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'MyFirstPodLib/Classes/**/*.swift'
   
-   s.resource_bundles = {
-     'MyFirstPodLib' => ['MyFirstPodLib/Assets/**/*']
-   }
+#   s.resource_bundles = {
+#     'MyFirstPodLib' => ['MyFirstPodLib/Assets/**/*']
+#   }
 
    s.frameworks = 'Foundation'
    
