@@ -28,6 +28,9 @@ let package = Package(
                 "Example",
                 "MyFirstPodLib",
                 "MyFirstPodLib.podspec"
+            ],
+            sources: [
+                "[PackageRoot]/Sources/[TargetName]/"
             ]
         ),
         .testTarget(
