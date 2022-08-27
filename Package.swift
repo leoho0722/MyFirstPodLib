@@ -25,12 +25,7 @@ let package = Package(
             name: "MyFirstPodLib",
             dependencies: [],
             exclude: [
-                "Example",
-                "MyFirstPodLib",
-                "MyFirstPodLib.podspec"
-            ],
-            sources: [
-                "[PackageRoot]/Sources/[TargetName]/"
+
             ]
         ),
         .testTarget(
